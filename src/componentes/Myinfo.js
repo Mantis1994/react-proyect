@@ -8,7 +8,7 @@ import fotoperfil from "../imagenes/lassalle.jpg";
 const MyInfo = ({nombre, apellido, email, gmail, edad, numero}) =>{
     return(
         <div className="contenedor-principal-info">
-            <img src={fotoperfil} />
+            <img src={fotoperfil} alt=" foto usuario " />
             <div className="contenedor-info">
                 <p><b>Nombre:</b> {nombre}</p>
                 <p><b>Apellido:</b> {apellido}</p>
