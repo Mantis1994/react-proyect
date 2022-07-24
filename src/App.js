@@ -1,23 +1,48 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Estudios from "./componentes/Estudios";
+import MyInfo from "./componentes/Myinfo.js";
+import Poraprender from "./componentes/Porapremder";
+import Proyectos from "./componentes/Proyectos";
+
+
+
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='contenedor-principal'>
+        <MyInfo 
+        nombre="Matias Agustin"
+        apellido="Lassalle"
+        edad="28"
+        email="lassalle15@hotmail.com"
+        gmail="maticxen@gmail.com"
+        numero="02227468464" />
+        
+      </div>
+      <div className="contenedor-estudios">
+        <Estudios />
+
+      </div>
+      <div className="contenedor-proyectos">
+        <h1>Proyectos</h1>
+        <Proyectos />
+
+      </div>
+      <div className="contenedor-poraprender">
+        <Poraprender />
+      </div>
+
+
+
+
     </div>
   );
 }

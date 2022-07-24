@@ -1,0 +1,32 @@
+.contenedor-principal-estudio{
+    background-color: aqua;
+    color: brown;
+}
+.contendor-estudio{
+    display: flex;
+    
+}
+.contendor-estudio p{
+    margin: 10px;
+}
+.logo{
+    position: relative;
+    animation: movimiento 1.4s infinite;
+}
+.logo1{
+    color: orangered;
+}
+.logo2{
+    color:blue
+}
+.logo3{
+    color: yellow;
+}
+@keyframes movimiento {
+    50%{margin-top : 15px;} 
+    
+    
+    
+
+    
+}
