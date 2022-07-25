@@ -1,4 +1,15 @@
 .contenedor-prinicipal-poraprender{
-    background-color: yellow;
+    margin: auto;
+    margin-top: 2px;
     text-align: center;
+}
+.contenedor-prinicipal-poraprender #logo-react{
+  animation: logo-react 4s infinite;
+}
+
+@keyframes logo-react {
+    0%{transform: rotateZ(0deg);}
+    50%{transform: rotateZ(180deg);}
+    100%{transform: rotateZ(360deg);}
+    
 }

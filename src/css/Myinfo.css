@@ -1,7 +1,10 @@
 .contenedor-principal-info{
+    text-align: center;
     width: 290px;
-    height: 100%;
-    background-color: aliceblue;
+    height: 98%;
+    margin: 10px;
+    background-color: rgb(10, 255, 6);
+    border: 1px solid  rgb(37, 115, 4);
 }
 .contenedor-principal-info img{
     display: block;

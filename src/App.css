@@ -7,24 +7,38 @@ html,body{
 .App {
   min-height: 100vh;
   margin: auto;
-  background-color: black;
+  background-color: rgba(16, 236, 68, 0.839);
   display: flex;
 }
 .contenedor-estudios{
   text-align: center;
+  font-weight: 600;
+  -webkit-user-select: none;
   display: flex;
   flex: 1;
+  border: 2px solid  rgb(44, 74, 223);
   margin: 30px;
+  margin-bottom: 500px;
 }
 .contenedor-proyectos{
   text-align: center;
+  font-weight: 600;
   flex: 1;
-  background-color: blue;
+  background-color: rgb(249, 147, 144);
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);;
   margin:30px;
+  margin-bottom: 500px;
+  -webkit-user-select: none;
 }
 .contenedor-poraprender{
 
   display: flex;
   flex: 1;
+  background-color: rgb(221, 221, 154);
+  border: 2px solid rgb(241, 241, 0);
+  color: yellow;
   margin: 30px;
+  -webkit-user-select: none;
+  margin-bottom: 500px;
 }

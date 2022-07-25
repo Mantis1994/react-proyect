@@ -1,14 +1,18 @@
 
 
-.contenedor-principal-proyecto{
-    background-color: blue;
-}
-
 
 
 
 .contenedor-principal-proyecto a {
     text-decoration: none;
-    color: green;
+    color: rgb(255, 0, 0);
+    font-size: 1em;
+    transition: 0.5s;
+    
    
+}
+.contenedor-principal-proyecto a:hover{
+    font-size: 1.2em;
+    transition: 0.5s;
+
 }
